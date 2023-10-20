@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .container__small-card {
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 426px) {
+    .small-card__photo>img {
+        max-width: 15rem;
+    }
+
+    .small-card__title>h1>a {
+        font-size: 2rem;
+    }
+}

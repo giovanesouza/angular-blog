@@ -1,26 +1,33 @@
 .container__small-card {
-    width: 70rem;
+    width: 100%;
     margin-bottom: 1rem;
 }
 
 .container__small-card-content {
     display: flex;
-
 }
 
-.small-card__photo >img {
-width: 20rem;
-min-width: 20rem; /*Define um valor mínimo de largura para img*/
-margin-right: 2rem;
+.small-card__photo>img {
+    max-width: 20rem;
+    min-width: 15rem;
+    /* Define um valor mínimo de largura para img */
+    margin-right: 2rem;
 }
 
-.small-card__title  {
+.small-card__title {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.small-card__title > h1 > a {
+    font-size: 3rem;
+}
+
 
 .container__small-card-separator {
     margin-top: 1rem;
+}
+.container__small-card-separator > hr {
+   border-color: rgba(128, 128, 128, 0.308); /* muda a cor da linha */
 }

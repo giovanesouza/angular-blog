@@ -1,12 +1,10 @@
 .container__big-card {
     width: 40rem;
-    height: 50rem;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    margin: 0 2rem;
+    margin: 0 2rem 6rem;
 }
 
 .big-card__title>h1 {
@@ -26,6 +24,4 @@
 
 .big-card__photo>img {
     width: 100%;
-    width: 40rem;
-
 }

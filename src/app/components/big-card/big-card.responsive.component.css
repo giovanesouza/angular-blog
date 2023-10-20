@@ -1,0 +1,12 @@
+@media (max-width: 426px) {
+    .container__big-card {
+        width: 100%;
+        margin: 0 0 2rem;
+
+        padding: 2rem;
+    }
+
+    .big-card__photo>img {
+        max-width: 100%;
+    }
+}

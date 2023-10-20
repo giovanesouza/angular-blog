@@ -1,5 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# Ignora a pasta com as fotos de referência para o projeto
+.ideas
+
 # Compiled output
 /dist
 /tmp
