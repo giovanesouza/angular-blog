@@ -10,13 +10,30 @@
 <div class="container__articles">
 
     <div class="articles__main">
-        <app-big-card></app-big-card>
+        <!-- Conteúdo passado de forma dinâmica graças ao @Input() -->
+        <app-big-card
+            photoCover="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/AD72115B9CDAE873B2234BD0908CEF7B45A2D9AD9C66C699239B46E582F70A8B/scale?width=1200&aspectRatio=1.78&format=jpeg"
+            cardTitle="NOVO HOMEM DE FERRO 3D" cardDescription="Marvel anuncia novo homem de ferro"></app-big-card>
+        <!-- Conteúdo passado de forma dinâmica graças ao @Input() -->
+        <app-big-card
+            photoCover="https://i.ytimg.com/vi/QUfaHAR-Nho/maxresdefault.jpg"
+            cardTitle="NOVIDADES DO HOMEM DE FERRO 4" cardDescription="Marvel anuncia novo homem de ferro"></app-big-card>
     </div>
 
     <div class="articles__others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card
+        photoCover="https://cinebuzz.uol.com.br/media/_versions/filmes_da_marvel_serao_adiados_novamente_widemd.jpg"
+        cardTitle="Nova série anunciada no Disney +"
+        ></app-small-card>
+        <app-small-card
+        photoCover="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F6482D58C8BB4D899FA4682BF27652C3E1BB73F5971E5F963994112F26A73690/scale?width=1200&aspectRatio=1.78&format=jpeg"
+        cardTitle="Novo filme do pantera negra - lançamento em breve"
+        ></app-small-card>
+        <app-small-card
+        photoCover="https://sm.ign.com/ign_br/screenshot/default/ai9ukd8kownqkgih1m5p3dueemm_ze9k.jpg"
+        cardTitle="Novo filme do X-men está em pós produção, afirma diretor"
+        ></app-small-card>
+
     </div>
 
 </div>
