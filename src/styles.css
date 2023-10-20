@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: 'Segoe UI';
+    color: #fff;
 }
 
 html {
@@ -14,4 +17,8 @@ html {
 body {
     background-color: #111111;
     font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
 }
