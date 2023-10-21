@@ -2,14 +2,29 @@
     color: #fff;
 }
 
-.container__menu-title > h1{
+.container__menu-title>h1 {
     font-size: 13.5rem;
+
+    /* Primeiro passo: definir um degradê como fundo */
+    background-image: linear-gradient(to right, #A00, #A00, #FFF, #A00, #A00, #FFF, #FFF);
+
+    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* Alguns navegadores precisam do prefixo */
+
+    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+    -webkit-text-fill-color: transparent;
+
+    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+    color: black;
+
 
     display: flex;
     justify-content: center;
     margin: 1.5rem 0;
 }
 
-.container__menu-title > hr{
+.container__menu-title>hr {
     margin: 2rem 0;
 }
