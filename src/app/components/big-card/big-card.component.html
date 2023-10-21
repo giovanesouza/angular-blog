@@ -1,17 +1,18 @@
 <div class="container__big-card">
 
     <div class="big-card__photo">
+        <!-- Propriedade para passar o valor de forma dinâmica -->
         <img src="{{ photoCover }}" alt="foto big card" />
     </div>
 
     <div class="big-card__title">
-        <!-- Propriedade para passar o valor de forma dinâmica -->
-        <h1><a href="#"> {{ cardTitle }} </a></h1>
+        <!-- [routerLink]="['content', Id]" -> chama uma rota dinâmica com base no card clicado -->
+        <h1><a [routerLink]="['content', Id]"> {{ cardTitle }} </a></h1>
     </div>
 
     <div class="big-card__description">
         <p>
-            <a href="#">
+            <a [routerLink]="['content', Id]">
                 {{ cardDescription }}
             </a>
         </p>

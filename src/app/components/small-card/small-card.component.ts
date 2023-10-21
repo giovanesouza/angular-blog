@@ -12,6 +12,10 @@ export class SmallCardComponent implements OnInit {
     photoCover:string = '';
     @Input()
     cardTitle:string = '';
+    
+  // Utilizado para pegar o Id do conteúdo e passar para rota
+    @Input()
+    Id:string = '0';
 
   constructor() { }
 

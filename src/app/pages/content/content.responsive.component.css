@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .content__cover>img {
+        width: 100%;
+        height: 25rem;
+    }
+}
+
+@media (max-width: 426px) {
+    .content__cover>img {
+        height: 15rem;
+    }
+    
+}
